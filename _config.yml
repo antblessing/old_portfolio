@@ -5,7 +5,7 @@ title: Anthony Blessing
 description: "Portfolio and blog site for Anthony Blessing"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://antblessing.github.io/"
+url: "http://antblessing.github.io"
 
 # Build settings
 markdown: kramdown
