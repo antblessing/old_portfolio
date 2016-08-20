@@ -1,0 +1,19 @@
+---
+layout: project
+title:  "Bloccit"
+date:   2016-08-10
+author: Admin
+categories:
+- project
+img: bloccit.png
+thumb: bloccit.png
+carousel:
+- bloccitt.png
+tagged: Ruby, Ruby on Rails, API, AJAX, TDD
+client: Personal
+website: http://arcane-depths-4489.herokuapp.com/
+---
+Bloccit is an attempt by me to recreate the popular website Reddit.  I wrote this project during my time in Bloc.io's Full Stack Web Development track.  It was built with Ruby on Rails, and utilizes many popular technologies such as Test Driven Development, RESTful API's, and AJAX.
+
+One of the most interesting parts of this project was implementing user authentication from scratch, as opposed to using the popular Devise gem.
+I used Rails built in Session's to keep track of the current state of the user along with various validations to ensure information for the user was valid before creation.

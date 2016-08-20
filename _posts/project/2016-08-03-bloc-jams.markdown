@@ -1,0 +1,21 @@
+---
+layout: project
+title:  "Bloc Jams"
+date:   2014-04-25 16:54:46
+author: Admin
+categories:
+- project
+img: BJ.png
+thumb: BJ.jpg
+carousel:
+- blocjams.png
+tagged: JavaScript, AngularJS, jQuery
+client: Personal
+website: https://github.com/antblessing/bloc-jams
+---
+
+Bloc Jams is a music player web application that I originally built with vanilla JavaScript and jQuery and later rebuilt with AngularJS to learn a second framework besides Rails.
+
+The biggest challenge in this project was creating a functional music player complete with play/pause, back/next buttons, and an up-to-date song tracker that can be moved to any point in the song.  
+
+I used a library called Buzz for my songs which allowed me to get specific information on the current song such as currentTime, currentVolume, length, etc. to help with building the jQuery event handlers.
